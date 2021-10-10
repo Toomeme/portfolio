@@ -11,6 +11,8 @@
   box-sizing: border-box;
   }
 
+/* General site-wide style choices */
+
 h1::first-letter, 
 h2::first-letter, 
 h3::first-letter {
@@ -46,6 +48,8 @@ display:block;
 .main{
   margin-left: 200px;
   }
+
+/* Header Style Start*/
 
 header {
   padding: 20px 35px;
@@ -118,6 +122,8 @@ header nav ul li a {
   width: 70%;
 }
 
+/*Header Style End*/
+
 body {
   color: var(--tertiary-color);
   font-family: 'Inria Sans';
@@ -160,14 +166,13 @@ section {
   text-shadow: 2px 1px 0px #fff;
   }
 
-/* Hero Style End */
-
 .gamejumbo{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-start;
 }
+/* Hero Style End */
 
 .section-title {
   font-size: 48px;
@@ -195,6 +200,8 @@ section {
   margin: 0 auto;
   text-align: center
   }
+
+/* Work Style Start */
   
 .exampleh {
   width: 100%;
@@ -311,6 +318,9 @@ section {
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
   }
+
+/* Work Style End */
+
 .text-left {
   text-align: left;
   }
@@ -488,7 +498,7 @@ section {
 
     .sidebar {
         padding-top: 18%;
-        width: 150px; /* Set the width of the sidebar */
+        width: 150px;
     }
 
   }
