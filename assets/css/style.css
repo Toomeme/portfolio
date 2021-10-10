@@ -247,8 +247,18 @@ section {
   font-size: 17px;  
   }
 
+.sm-link{
+  display: flex;
+  justify-content: center;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  }
+
 .example:hover, 
-.exampleh:hover {
+.exampleh:hover,
+.sm-link a:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   }
@@ -268,6 +278,7 @@ section {
   
 .flex-row {
   display: flex;
+  justify-content: center;
   }
   
 .section-title {
@@ -281,6 +292,7 @@ section {
   }
   
 /* REACH OUT STYLES START */
+
 .contact {
   text-align: center;
   background: var(--secondary-color);
@@ -298,7 +310,7 @@ section {
   
 .contact-info > * {
   flex: 1;
-  margin: 15px;
+  margin: 10px;
   }
   
 .contact-info div {
@@ -370,7 +382,7 @@ section {
   background-color: var(--secondary-color); 
   overflow-x: hidden; 
   overflow-y:hidden;
-  padding-top: 10%;
+  padding-top: 9%;
 }
 /* REACH OUT STYLES END */
   
@@ -417,6 +429,10 @@ section {
       flex: 0 70%;
     }
 
+    .contact-info > * {
+      margin: 5px;
+      }
+
     .contact-info h3 {
         font-size: 24px;
       }
@@ -428,7 +444,7 @@ section {
       }
 
     .sidebar {
-        padding-top: 20%;
+        padding-top: 18%;
         width: 150px; /* Set the width of the sidebar */
     }
 
