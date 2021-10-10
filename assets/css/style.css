@@ -169,6 +169,7 @@ section {
 .gamejumbo{
   display: flex;
   justify-content: center;
+  margin-left: 5%;
   flex-wrap: wrap;
   align-items: flex-start;
 }
